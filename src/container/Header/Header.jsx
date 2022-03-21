@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SubHeading } from '../../components';
 // import { images } from '../../constants';
-import welcome from '../../assets/welcome3.png';
+import welcome from '../../assets/welcome4.png';
 import './Header.css';
 
 const Header = () => (
