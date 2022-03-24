@@ -42,21 +42,6 @@
     align-items: center;
 }
 
-.app__navbar-login a {
-    margin: 0 1rem;
-    text-decoration: none;
-    transition: .5s ease;
-}
-
-.app__navbar-login a:hover {
-    border-bottom: 1px solid var(--color-golden);
-}
-
-.app__navbar-login div {
-    width: 1px;
-    height: 30px;
-    background: var(--color-grey);
-}
 
 .app__navbar-smallscreen {
     display: none;
@@ -100,6 +85,21 @@
 
 .app__navbar-smallscreen_links li:hover {
     color: var(--color-white);
+}
+
+.app__navbar-links_icons{
+    margin-top: 0.5rem;
+}
+.app__navbar-links_icons svg{
+    
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app__footer-links_icons svg:hover {
+    color: var(--color-golden);
 }
 
 @media screen and (min-width: 2000px) {

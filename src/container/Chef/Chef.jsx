@@ -12,8 +12,8 @@ const Chef = () => (
       <img src={chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
-      <h1 className="headtext__cormorant">What we believe in</h1>
+      <SubHeading title="Le Mot Du Chef" />
+      <h1 className="headtext__cormorant">En Quoi Nous Croyons</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
@@ -24,8 +24,8 @@ const Chef = () => (
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
+        <p>Foulen Elfouleni</p>
+        <p className="p__opensans">Cuisinier & Fondateur</p>
         <img src={sign} alt="sign_image" />
       </div>
     </div>
