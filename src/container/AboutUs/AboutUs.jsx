@@ -1,6 +1,5 @@
 import React from 'react';
 import knife from '../../assets/knife.png';
-import dhiafaLogo from '../../assets/dhiafaLogo.png';
 import spoon from '../../assets/spoon.png';
 import './AboutUs.css';
 
